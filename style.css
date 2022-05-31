@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: rgb(54, 45, 45);
+    color:white;
+}
+.header1{
+   padding: 20px 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header1 p{
+    font-size:2em;
+    
+}
+.header1 ul{
+    display:flex;
+    list-style-type: none;
+}
+.header1 li{
+    padding:0 10px;
+}
+.header1 a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header1 a:hover{
+    background-color: white;
+    color:black;
+    padding:5px 10px;
+}
+
+
+.bbak{
+    background-image: url(images/Dec-3-Assisting-with-Individual-Professional-Development-Goals-for-Teachers_web-1024x682.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.develop{
+    height: 350px;
+    width:1354px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    font-family:tahoma,sans-serif;
+    font-size: 1.3em;
+   
+}
+.develop h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.lastblock{
+    padding-top: 20px;
+    width: 70%;
+    display:grid;
+    grid-template-columns:200px 200px 200px ;
+    justify-content: space-between;
+}
+.lastblock div{
+    width:250px;
+    border:1px solid grey;
+    margin-left:140px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:20px;
+    text-align: center;
+
+}
+.lastblock div p{
+    padding:10px 0px; ;
+}
+.l000{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: green;
+}
+.l111{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: rgb(24, 124, 206);
+}
+.l222{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: rgb(235, 85, 15);
+}
+.l333{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: rgb(77, 80, 77);
+}
+.l444{
+    padding:5px 10px;
+    border:none;
+    color:white;
+    background-color: rgb(76, 78, 76);
+}
+.l555{
+    padding:5px 10px;
+    border:none;
+    color:rgb(233, 133, 11);
+    background-color: rgb(58, 59, 56);
+}
+
+@media(max-width:1000px){
+    .lastblock{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header1{
+        padding: 20px 10px;
+         display:flex;
+         flex-direction: column;    
+     }
+     .header1 ul{
+        display:flex;
+        flex-direction: column;
+     }
+    .header1 li{
+        padding-top: 20px;
+    }
+}
